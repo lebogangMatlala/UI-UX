@@ -1,0 +1,80 @@
+page-about {
+    .img{
+        text-align: center;
+        width: 100px;
+        height: 80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    
+    }
+    .content_item{
+        color: gray;
+    }
+    
+    .red{
+        color:red;
+    }
+    
+    ion-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 90px 1px;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+    
+    .nav1{
+        background-color: rgb(114,92,203);
+    }
+    
+    .icon2{
+        margin-left: 90%;
+        font-size:35px;
+        margin-top: -25px;
+        font-weight: bold;
+        padding-bottom: -25px;
+        color:rgb(114,92,203);
+    }
+    
+    .icon1{
+    
+        font-weight: bold;
+      
+       margin-right: 80%;
+        color:rgb(114,92,203)
+    }
+    .pup{
+       color: rgb(114,92,203);
+    }
+    
+    @media screen and (max-width: 2500px) {
+      .icon1{
+        margin-right: 80%;
+      }
+    
+      .content_item{
+          padding-left: 10%;
+          padding-right: 10%;
+      }
+    
+    }
+
+    @media screen and (max-width: 500px) {
+        .icon1{
+          margin-right: 80%;
+        }
+      
+        .content_item{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+      
+      }
+    
+    
+    
+    }
