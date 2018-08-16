@@ -20,14 +20,14 @@
     </ion-navbar>
 </ion-header>
 
-<ion-content padding class="back"><br>
+<ion-content padding class="back"><br><br><br>
 
   <div class="image">
     <img src="../../assets/imgs/profile.jpg" class="img">
     <h5 align="center" class="pup">Edit Photo</h5>
   </div>
   <div class="content_items">
-      <ion-item class="content_item">
+      <ion-item class="content_item" >
           <ion-label fixed>Name</ion-label>
           <ion-input type="text" value=""></ion-input><br>
         </ion-item>
@@ -53,11 +53,15 @@
               <ion-label fixed> <ion-icon name="lock"></ion-icon>  Password</ion-label>
               <ion-input type="password"></ion-input>
           </ion-item><br>
-          <h5 align="center" class="red">Log Out </h5><br>
+         
 
 
-  </div>
-
+  </div><br>
+<div class="footer">
+  <h5 align="center" class="red" (click)="gotoHome()">Log Out </h5><br>
+</div>
  
  
 </ion-content>
+
+
